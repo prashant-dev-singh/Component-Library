@@ -2,17 +2,236 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+
+}
+
+
+
+
+
+
+.list {
+    width: 100%;
+
+}
+
+.list .list-item {
+    width: 600px;
+    height: 50px;
+    border: 1px solid #9CA3AF;
+    list-style: none;
+    border-radius: 5px;
+    ;
+    margin: 1rem;
+    text-align: center;
+    background: #D1D5DB;
+}
+
+.list .list-item:hover {
+    box-shadow: 5px 10px 8px #888888;
+}
+
+
+.list .list-item-stacked {
+    width: 600px;
+    height: 50px;
+    border: 0.1px solid #9CA3AF;
+    list-style: none;
+    border-radius: 5px;
+    text-align: center;
+    background: #D1D5DB;
+}
+
+.list .list-item-stacked:hover {
+    box-shadow: 2px 5px 4px #888888;
+}
+
+
+
+.modal {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    width: 400px;
+    /* display: none; */
+
+    /* Full width */
+
+    /* Full height */
+}
+
+.card-prd-horz {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* width: 500px; */
+    /* margin: auto; */
+    text-align: center;
+    font-family: arial;
+    max-height: 400px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* position: relative; */
+}
+
+.card-prd-horz .price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card-prd-horz:hover {
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.card-prd {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    /* margin: auto; */
+    text-align: center;
+    font-family: arial;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.card-prd:hover {
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.card-prd .price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card-prd .card-badge {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    color: white;
+    background: #DC2626;
+    width: 50px;
+}
+
+.card-prd .card-badge-text {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    color: white;
+    /* background: #DC2626; */
+    /* width: 50px; */
+}
+
+
+
+.sidenav {
+    width: 25%;
+    height: 100vh;
+    background-color: #E5E7EB;
+    /* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+    /* color: black; */
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5rem;
+    justify-content: space-evenly;
+}
+
+.sidenav a {
+    /* margin: 2rem; */
+    text-decoration: none;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.sidenav a:hover {
+    color: #2563EB;
+}
+
+
+/* Style page content */
+.main {
+    margin-left: 20%;
+    /* Same as the width of the sidebar */
+    padding: 5rem 0px;
+    /* border: 1px solid black; */
+    /* margin-top: 3rem; */
+}
+
+
+.sidenav .home-link {
+    color: blue;
+    margin: 0.5rem;
+}
+
+
+.container {
+    margin-left: 20%;
+    /* border:1px solid black; */
+    /* display: flex; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
 
 
 }
 
+.cont-index {
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    height: 100vh;
+    background-image: url('https://blog.creatopy.com/wp-content/uploads/2020/04/Poster-Examples.png');
+    color: #DC2626;
+    font-weight: bold;
+    font-size: 20px;
+    /* border: 1px solid red; */
+}
+
+.cont-index .cont-head {
+    /* justify-content: flex-start; */
+    margin-left: 4rem;
+    margin-top: 2rem;
+    ;
+    /* background: white; */
+    width: fit-content;
+    border-radius: 0.5rem;
+}
+
+
+
+.cont-ele {
+    margin-top: 2rem;
+    border: 1px solid #9CA3AF;
+    border-radius: 1rem;
+    padding: 4rem;
+    width: 80%;
+}
+
+.cont-ele-link {
+    margin-top: 0.5rem;
+}
 
 .navbar {
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
-    background: #8B5CF6;
+    background: #3B82F6;
     position: sticky;
     top: 0;
 }
@@ -26,19 +245,20 @@ li a {
 }
 
 li a:hover {
-    background-color: #6D28D9;
+    background-color: white;
+    color: #3B82F6;
 }
 
 
 .input-container {
-    width: 50%;
+    width: 70%;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 }
 
 .input-text {
-    width: 100%;
+    width: 300px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -123,15 +343,84 @@ li a:hover {
 }
 
 
+.avatar-bdg {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    /* padding: 15px 26px; */
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
 
 
-.avatarImage {
-    width: 200px;
-    height: 200px;
+
+.avatar-bdg .badge-online {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    /* padding: 5px 10px; */
+    border-radius: 50%;
+    background: #10B981;
+    color: white;
+    height: 1rem;
+    width: 1rem
+}
+
+.avatar-bdg .badge-busy {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    /* padding: 5px 10px; */
+    border-radius: 50%;
+    background: #DC2626;
+    color: white;
+    height: 1rem;
+    width: 1rem
+}
+
+.avatar-bdg .badge-offline {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    /* padding: 5px 10px; */
+    border-radius: 50%;
+    background: #9CA3AF;
+    color: white;
+    height: 1rem;
+    width: 1rem
+}
+
+
+.avatarImage-small {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.avatarImage-medium {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.avatarImage-large {
+    width: 100px;
+    height: 130px;
     border-radius: 50%;
 }
 
 
+
+.rating {
+    background-color: #059669;
+    color: white;
+    border: 1px solid #059669;
+
+    font-weight: bold;
+}
 
 .primary-button {
     background: #3B82F6;
@@ -144,6 +433,7 @@ li a:hover {
     padding: 5px 40px;
     font-family: "Sofia",
         sans-serif;
+    outline: none;
 
 }
 
@@ -207,6 +497,8 @@ li a:hover {
 
 }
 
+
+
 .link-button {
     background: #3B82F6;
     color: #fff;
@@ -217,8 +509,8 @@ li a:hover {
     text-decoration: none;
     font-family: "Sofia",
         sans-serif;
-
-
+    /* height: 35px; */
+    margin: 5px;
 }
 
 
@@ -228,15 +520,14 @@ li a:hover {
 
 
 
-.container {
+/* .container{
     background-color: turquoise;
     display: flex;
     flex-direction: row;
     flex-direction: column;
     flex-direction: row-reverse;
     flex-direction: row;
-}
-
+} */
 .card {
 
     border: 1px solid black;
