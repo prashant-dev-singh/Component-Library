@@ -121,13 +121,38 @@
     width: 50px;
 }
 
+.card-prd .card-bdg-wish {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
+.card-prd .card-bdg-wish .icon {
+    font-size: 25px;
+    border: none;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    color: #9ca3af;
+}
+
+.card-prd .card-bdg-wish .icon:hover {
+
+    background-color: #D1D5DB;
+
+}
+
+
+
 .card-prd .card-badge-text {
     position: absolute;
     top: 40px;
     left: 0;
     color: white;
-    /* background: #DC2626; */
-    /* width: 50px; */
+
 }
 
 
