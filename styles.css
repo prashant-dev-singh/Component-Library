@@ -90,6 +90,24 @@
 }
 
 
+.card-btn {
+    background: #3B82F6;
+    color: #fff;
+    width: 50%;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border: none;
+    cursor: pointer;
+    /* border-radius: 1rem; */
+    height: 35px;
+    padding: 5px 40px;
+    font-family: "Sofia",
+        sans-serif;
+    outline: none;
+
+}
+
+
+
    .card-prd {
        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
        max-width: 20%;
