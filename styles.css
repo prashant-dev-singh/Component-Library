@@ -89,18 +89,21 @@
     box-shadow: 5px 10px 8px #888888;
 }
 
-.card-prd {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    /* margin: auto; */
-    text-align: center;
-    font-family: arial;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    position: relative;
-}
+
+   .card-prd {
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+       max-width: 25%;
+       margin: 1rem;
+       border-radius: 0 0 0.5rem 0.5rem;
+       text-align: center;
+       font-family: arial;
+       height: 400px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       position: relative;
+   }
+
 
 .card-prd:hover {
     box-shadow: 5px 10px 8px #888888;
