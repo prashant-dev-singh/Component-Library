@@ -260,6 +260,29 @@
     background: #3B82F6;
     position: sticky;
     top: 0;
+    justify-content: space-around;
+    height: 5rem;
+    align-items: center;
+
+
+}
+
+.navbar .navbar-itm-rgt {
+
+    display: flex;
+
+}
+
+.navbar .navbar-txtbx {
+
+    width: 300px;
+    height: 40px;
+    padding: 1rem 1rem;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+    outline: none
 }
 
 li a {
