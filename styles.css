@@ -263,6 +263,7 @@
     justify-content: space-around;
     height: 5rem;
     align-items: center;
+    z-index:1
 
 
 }
