@@ -298,6 +298,28 @@ li a:hover {
     color: #3B82F6;
 }
 
+.nav-list-btn {
+    background: #3B82F6;
+    color: #fff;
+    /* box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%); */
+    border: none;
+    cursor: pointer;
+    /* border-radius: 1rem; */
+    height: 35px;
+    padding: 5px 40px;
+    font-family: "Sofia",
+        sans-serif;
+    outline: none;
+
+}
+
+.nav-list-btn:hover {
+    background: white;
+    color: black;
+}
+
+
+
 
 .input-container {
     width: 70%;
