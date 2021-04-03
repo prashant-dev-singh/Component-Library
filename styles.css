@@ -511,14 +511,14 @@ li a:hover {
 
 .card-prd .card-img {
     width: 100%;
-    height: auto
+    height: 100vh
 }
 
 
 .card-btn {
     background: #3B82F6;
     color: #fff;
-    width: 50%;
+    width: 100%;
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
     border: none;
     cursor: pointer;
