@@ -126,23 +126,15 @@
     top: 20px;
     right: 10px;
     cursor: pointer;
+    color: white;
 }
 
 
 
-.card-prd .card-bdg-wish .icon {
-    font-size: 25px;
-    border: none;
-    background-color: white;
-    padding: 5px;
-    border-radius: 50%;
-    color: #9ca3af;
-}
 
-.card-prd .card-bdg-wish .icon:hover {
 
-    background-color: #D1D5DB;
-
+.card-prd .card-bdg-wish:hover {
+    color: red
 }
 
 
